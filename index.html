@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter&display=swap"
       rel="stylesheet"
@@ -15,15 +16,48 @@
   </head>
   <body>
     <nav>
-      <ul>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Experience</li>
-        <li>Resume</li>
-      </ul>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#socials">Socials</a>
     </nav>
     <h3 class="intro">Hi, my name is</h3>
     <h1 class="name">[your name]</h1>
     <h1 class="description">I am a computer science major</h1>
+
+    <div class="projects" id="projects">
+      <div class="project-box">
+        <h4 class="block-title">Projects</h4>
+        <h5 class="project-name">Project Name</h5>
+        <p class="project-description">
+          Write the project description, include tools, and the objective of the
+          project
+        </p>
+      </div>
+      <div class="project-box">
+        <h5 class="project-name">Project Name</h5>
+        <p class="project-description">
+          Write the project description, include tools, and the objective of the
+          project
+        </p>
+      </div>
+      <div class="project-box">
+        <h5 class="project-name">Project Name</h5>
+        <p class="project-description">
+          Write the project description, include tools, and the objective of the
+          project
+        </p>
+      </div>
+    </div>
+    <div class="exp-box" id="experience">
+      <h4 class="block-title">Experience</h4>
+      <h5 class="exp-name">Project Name</h5>
+      <p class="exp-description">
+        Write the experience description, inlcude the tools, location, duration
+      </p>
+    </div>
+    <div class="Socials" id="socials">
+      <h4 class="block-title">Socials</h4>
+      <iconify-icon icon="mdi:github"></iconify-icon>
+    </div>
   </body>
 </html>
